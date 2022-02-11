@@ -10,7 +10,7 @@ public class KeyboardToStringExam {
 		int readByteNo = System.in.read(bytes);
 		System.out.println(readByteNo);
 		String str = new String(bytes, 0, readByteNo -2/*-2의 의미|r, |n*이 붙어있다.-줄바꾸고 맨앞으로가라*/);
-		System.out.println("["+str+"]"); 
+		System.out.println("["+str+"]");  
 	}
 
 }

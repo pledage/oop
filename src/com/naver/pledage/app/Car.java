@@ -13,18 +13,19 @@ public class Car {
 	
 	
 	public static void main(String[] args) {
-		Car car = new Car(15);
+		Car car = new Car();
+		car.t1.setInch(15);
 		System.out.println(car.t1.getInch());
 		
-		Car car2 = new Car(20);
+		Car car2 = new Car();
+		car.t1.setInch(20);
 		System.out.println(car2.t1.getInch());
 		
-		Car.t2.setInch(23);
-		System.out.println(Car.t2.getInch());
-					     //System.out.println()
+		
 		
 		//com.hankook.Tire tire = new com.hankook.Tire();//import를 사용하지 않는방법
 		//Tire tire = new Tire();
 		}
 
 }
+

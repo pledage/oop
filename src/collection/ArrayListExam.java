@@ -12,6 +12,18 @@ public class ArrayListExam {
 		list.add("Servlet/JSP");
 		list.add(2, "Database");
 		list.add("iBATIS");
+		Iterator<String> it = list.iterator();
+		
+		
+		while(it.hasNext()) {
+			String data = it.next();
+			System.out.println(data);
+		}
+		it = list.iterator();
+		while(it.hasNext()) {
+			String data = it.next();
+			System.out.println(data);
+		}
 		
 		for(int i = 0; i < list.size(); i++) {
 			System.out.println(list.get(i));
